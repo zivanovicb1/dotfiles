@@ -5,7 +5,13 @@ colorscheme torte
 :set linespace=5
 :set rnu nu " Enables line numbers on the left
 :set mouse=a " Enables mouse scrolling
-:set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab "Makes tabs spaces, width is 2 spaces
+
+" Use tab characters
+:set nolist
+:set autoindent
+:set noexpandtab
+:set tabstop=4
+:set shiftwidth=4
 :set nofoldenable
 " Removing search leftovers
 map <C-n> :noh<CR>
